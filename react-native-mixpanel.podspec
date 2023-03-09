@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.tvos.deployment_target = '10.0'
   s.dependency 'Mixpanel', '~> 3.6.0'
-  s.dependency 'React'
+  s.dependency 'React-Core'
 end
